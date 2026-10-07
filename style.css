@@ -550,3 +550,6 @@ button:focus-visible {
   height: 40px;
   margin-right: 10px;
 }
+.formulaire label, input {
+    display: block;
+}
