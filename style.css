@@ -550,6 +550,24 @@ button:focus-visible {
   height: 40px;
   margin-right: 10px;
 }
-.formulaire label, input {
-    display: block;
+.image_contact{
+  height: 300px;
+  margin-left: 150px;
 }
+.contacternous-contenu{
+    align-items: center;
+    gap: 12px;
+    padding: 40px 0 ;
+}
+
+.contacternous-contenu h2, p {
+  text-align: center;
+}
+
+.contacternous-texte{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

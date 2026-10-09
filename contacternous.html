@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Élan Fitness, salle de sport à Casablanca : musculation, yoga, cardio et boxe fitness avec des coachs diplômés. Réservez votre cours d'essai gratuit.">
+  <meta name="description"
+    content="Élan Fitness, salle de sport à Casablanca : musculation, yoga, cardio et boxe fitness avec des coachs diplômés. Réservez votre cours d'essai gratuit.">
   <title>Élan Fitness | Salle de sport à Casablanca</title>
   <link rel="icon" href="img/logo.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap"
+    rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 </head>
@@ -17,12 +21,12 @@
 
   <header class="en-tete">
     <div class="conteneur en-tete-contenu">
-      <a href="accueil.html" class="logo"><img src="img/logo.svg" alt="" class="logo-img">Élan Fitness</a>
+      <a href="index.html" class="logo"><img src="img/logo.svg" alt="" class="logo-img">Élan Fitness</a>
 
       <nav aria-label="Navigation principale">
         <ul class="menu">
-          <li><a href="accueil.html" >Accueil</a></li>
-          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="apropos.html">À propos</a></li>
           <li><a href="programmes.html">Programmes</a></li>
           <li><a href="contacternous.html" class="lien-actif">contacter nous</a></li>
         </ul>
@@ -32,35 +36,49 @@
 
   <main>
 
-    <section id="a-propos" class="section">
-      <div class="conteneur apropos-contenu"style="text-align: center;  ">
+    <section id="contacternous" class="section-contact">
+      <div class="contacternous-contenu" style="text-align: center; border: 2px hidden black; background-color: #f6f5f5; ">
 
-        <div class="apropos-texte">
-          <p class="sur-titre">si vous voulais plus d'informations</p>
-          <h2>CONTACTER NOUS</h2>
-          
-        </div>
-        <form action="" style="text-align: center "class="formulaire"><center>
+        <h2>CONTACTER NOUS</h2>
+        <p class="sur-titre" style=" color: #FF6B2C;"><b>si vous voulais plus d'informations</b></p>
+        
+        
+        <div class="contacternous-texte" >
+          <div>
+        <form action="" class="formulaire" style="border: 2px hidden black;  text-align: center; border-radius: 2px; margin-left:auto ; width: auto;height: 500;">
+          <div class="formule">
+          <div style=" display: block;">
             <label for=""><b>saisir votre nom: </b></label>
-            <input type="text" placeholder="nom" style=" border: 2px solid red; border-radius: 25px;">
+            <input type="text" placeholder="nom" style="border: 2px solid orange; border-radius: 25px;">
+          </div>
+          <div style=" display: block;">
             <label for=""><b>saisir votre mail: </b></label>
-            <input type="email" placeholder="yourmail@mail.com" style=" border: 2px solid red; border-radius: 25px;">
-            <label for=""><b>saisir votre gsm: </b></label>
-            <input type="text" placeholder="06 00 00 00 00" style=" border: 2px solid red; border-radius: 25px;">
-            </center>
+            <input type="email" placeholder="yourmail@mail.com" style="border: 2px solid orange; border-radius: 25px;">
+          </div>
+          <div style=" display: block;">
 
-          </form> 
+            <label for="" ><b>saisir votre gsm: </b></label>
+            <input type="tel" placeholder="06 00 00 00 00" style ="border: 2px solid orange; border-radius: 25px;"> 
+          </div>
+          <label for="" style="margin-top: 50px;" ><b>votre message  :</b></label>
+          <div style=" display: block;">
+            
+            <textarea name="message" style="width:250px; height: 150px ;border: 2px solid #000000; border-radius: 10px;">entrer votre message.</textarea>
+          </div>
+          </div>
+
+          <input type="button" onclick="alert('vos informations sont enregistrés')" value="entrer" style="background-color: #FF6B2C; border: 1px solid #FF6B2C; color: #FFFFFF; height: 45px;width: 105px; display: inline-block; padding: 14px 28px; border-radius: 8px; font-size: 16px; font-weight: 600; text-align: center; cursor: pointer;">
           
-        <p><b>Entre votre message ou reclamation :</b></p>
-            <form action="/action_page.php"><center>
-            <textarea name="message" rows="10" cols="30">entrer votre message.</textarea>
-             
-            <input type="button" onclick="alert('vos informations sont enregistrés')" value="entrer">
-            </center>
-            </form>
+        </form>
+        </div>
+        <div class="image_contact">
+          <img src="img/contactus.svg" alt="image deocratif pour nous contacter" style="height: 300px;width: 300px;">
+          </div>
+        </div>
+      </div>  
     </section>
 
-    
+
 
   </main>
 
@@ -75,16 +93,20 @@
 
         <nav aria-label="Navigation du pied de page">
           <ul class="menu menu-pied">
-            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="index.html">Accueil</a></li>
             <li><a href="apropos.html">À propos</a></li>
             <li><a href="programmes.html">Programmes</a></li>
-            <li><a href="contacternous.html" class="lien-actif">contacter nous</a></li>
+            <li><a href="contacternous.html">contacter nous</a></li>
           </ul>
         </nav>
       </div>
 
       <div class="pied-bas">
-        <p>Adresse : 12 rue des Palmiers, 20000 Casablanca<br>Numero de telephone : 05 26 26 30 15<br>Email : elanfitnesscasa@gmail.com</p>
+        <div class="informations-elan">
+          <p>Adresse : 12 rue des Palmiers, 20000 Casablanca</p>
+          <p>Numero de telephone : 05 26 26 30 15</p>
+          <p>Email : elanfitnesscasa@gmail.com</p>
+        </div>
         <p>&copy; 2026 Élan Fitness — Projet pédagogique fictif</p>
       </div>
 
@@ -92,4 +114,5 @@
   </footer>
 
 </body>
+
 </html>
